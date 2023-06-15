@@ -1,7 +1,7 @@
 import "dotenv/config"
 import express, {Application} from 'express';
 import cors from 'cors';
-import {router} from './routes';
+import router from './routes';
 import db from './config/mongo';
 
 const PORT: string | number = process.env.PORT ?? 30001;
