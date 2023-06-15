@@ -83,3 +83,7 @@ yarn add express cors dotenv multer mongoose
 ~~~
 yarn add @types/express @types/cors @types/dotenv @types/multer @types/mongoose -D
 ~~~
+12. Instalaciones Auth ()
+~~~
+yarn add express cors dotenv multer mongoose
+~~~
