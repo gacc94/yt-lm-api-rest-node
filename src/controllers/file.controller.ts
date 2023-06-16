@@ -9,9 +9,9 @@ const getFile = async (req: RequestExt, res: Response) => {
     try {
         const { user, file } = req;
         const dataToRegister: Storage = {
-            fileName: file?.filename,
-            idUser: user?.id,
-            path: file?.path,
+            fileName: `${file?.filename}`,
+            idUser: `${user?.id}`,
+            path: `${file?.path}`,
         };
         const response = await registerUpload(dataToRegister);
         res.send(response);

@@ -5,7 +5,9 @@
     "author": "gacc94 <gustavocaqui94@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start:dev": "nodemon"
+        "start:dev": "nodemon",
+        "start:prd": "node dist/app.js",
+        "build": "tsc"
     },
     "dependencies": {
         "bcryptjs": "2.4.3",

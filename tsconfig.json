@@ -5,8 +5,10 @@
         "sourceMap": true,
         "moduleResolution": "Node",
         "baseUrl": "src",
-        "outDir": "dist",
-        "noImplicitAny": true
+        "outDir": "./dist",
+        "noImplicitAny": true,
+//        "strict": true,
+        "skipLibCheck": true
     },
     "exclude": [
         "node_modules"
@@ -14,6 +16,6 @@
     "include": [
         "src/**/**.ts",
         "tests/**/**.ts",
-        "playground/**/**.ts",
+        "playground/**/**.ts"
     ]
 }

@@ -40,7 +40,7 @@ export const saveItem= async (request: Request, response: Response) => {
         const item = await creatCard(request.body);
         return response.send(item);
     } catch (err) {
-        handleHttp(response, 'SAVE_ITEM', err);
+        handleHttp(response, 'SAVE_ITEM', err.message);
     }
 };
 
